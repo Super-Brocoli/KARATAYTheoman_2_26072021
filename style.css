@@ -2,22 +2,3 @@
 *{
     font-family: 'Raleway', sans-serif;
 }
-header{
-    border: solid black 2px;
-    display: flex;
-    justify-content: space-around;
-}
-header img{
-    width: 160px;
-    height: 80px;
-}
-nav{
-    margin-right: 35px;
-}
-.header-ul{
-    display: flex;
-}
-.header-ul-li{
-    padding-left: 25px;
-    list-style-type: none;
-}
