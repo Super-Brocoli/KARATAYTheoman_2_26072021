@@ -8,3 +8,37 @@ body{
 #bloc_page{
     width: 1600px;
     margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    padding-top: 50px;
+}
+header nav{
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
+.bouton-hebergement:hover{
+    color: #0065FC;
+    border-top: #0065FC solid 3px;
+}
+.bouton-activites:hover{
+    color: #0065FC;
+    border-top: #0065FC solid 3px;
+}
+.bouton-inscrire{   
+    color: #0065FC;
+    font-weight: bolder;
+}
