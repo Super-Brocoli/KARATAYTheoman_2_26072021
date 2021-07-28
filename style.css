@@ -16,8 +16,6 @@ header{
 header img{
     padding-top: 50px;
 }
-header nav{
-}
 header ul{
     list-style-type: none;
     display: flex;
@@ -41,4 +39,51 @@ header ul li a{
 .bouton-inscrire{   
     color: #0065FC;
     font-weight: bolder;
+}
+ /*HEADER*/
+
+
+
+#rechercher{
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-radius: 10px;
+    width: 500px;
+}
+.icone-rechercher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #F2F2F2;
+    height: 50px;
+    width: 50px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.barre-rechercher{
+    border: none;
+    height: 50px;
+    width: 250px;
+    font-size: 1.2em;
+    color: black;
+    padding-left: 20px;
+}
+.bouton-rechercher{
+    color:#F2F2F2;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    background-color: #0065FC;
+    height: 50px;
+    width: 140px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
