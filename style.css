@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 *{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body{
     margin:0;
 }
 #bloc_page{
-    width: 1600px;
+    max-width: 1600px;
     margin: auto;
 }
 header{
@@ -86,6 +88,7 @@ header ul li a{
     border-color: #0065FC;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    cursor: pointer;
 }
 /*BARRE DE RECHERCHE*/
 
@@ -100,9 +103,42 @@ header ul li a{
     font-weight: bold;
 }
 .bouton-filtres{
+    position: relative;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 15px;
+    height: 35px;
+    min-width: 100px;
     display: inline;
     text-align: center;
+    border: none;
+    background-color: white;
+    border: solid lightgray 1px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+}
+.bouton-filtres:hover{
+    background-color: #0065FC;
+    color: white;
 }
 .div-filtres{
-    padding-right: 35px;
+    background-color: #d7e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    border: solid lightgray 1px;
+    border-radius: 50%;
 }
+.div-filtres i{
+    color: #0065FC;
+}
+
+
+/* FILTRES */
