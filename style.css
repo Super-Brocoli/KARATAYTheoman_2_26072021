@@ -44,9 +44,11 @@ header ul li a{
 }
  /*HEADER*/
 
-
-
+.section1{
+    margin-top: 30px;
+}
 #rechercher{
+    margin-top: 15px;
     display: flex;
     border-style: solid;
     border-color: rgb(255, 255, 255);
@@ -104,13 +106,13 @@ header ul li a{
     padding-left: 25px;
 }
 .texte-filtres{
-    margin-right: 35px;
+    margin-right: px;
     font-weight: bold;
 }
 .bouton-filtres{
     font-size: 0.9em;
     font-weight: bold;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 15px;
     height: 35px;
     min-width: 100px;
@@ -147,3 +149,25 @@ header ul li a{
 
 
 /* FILTRES */
+
+.simple-flex{
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 25px;
+}
+.simple-flex-icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border: solid lightgray 1px;
+    border-radius: 50%;
+}
+.simple-flex-icone i{ 
+    color: rgb(111, 111, 255);
+}
+.simple-flex p{
+    padding-top: 5px;
+    margin-left: 15px;
+}
