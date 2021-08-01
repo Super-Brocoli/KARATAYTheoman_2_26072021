@@ -98,12 +98,16 @@ header ul li a{
     display: flex;
     align-items: center;
 }
+.conteneur-filtres{
+    display: flex;
+    position: relative;
+    padding-left: 25px;
+}
 .texte-filtres{
     margin-right: 35px;
     font-weight: bold;
 }
 .bouton-filtres{
-    position: relative;
     font-size: 0.9em;
     font-weight: bold;
     padding-left: 40px;
@@ -126,6 +130,7 @@ header ul li a{
     color: white;
 }
 .div-filtres{
+    position: absolute;
     background-color: #d7e7ff;
     display: flex;
     justify-content: center;
@@ -133,7 +138,7 @@ header ul li a{
     height: 35px;
     width: 35px;
     cursor: pointer;
-    border: solid lightgray 1px;
+    border: solid white 1px;
     border-radius: 50%;
 }
 .div-filtres i{
