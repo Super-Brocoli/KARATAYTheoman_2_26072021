@@ -112,15 +112,15 @@ header ul li a{
 .bouton-filtres{
     font-size: 0.9em;
     font-weight: bold;
-    padding-left: 55px;
+    padding-left: 50px;
     padding-right: 15px;
-    height: 45px;
+    height: 40px;
     min-width: 100px;
     display: inline;
     text-align: center;
     border: none;
     background-color: white;
-    border: solid lightgray 1px;
+    border: solid lightgray 2px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -137,10 +137,10 @@ header ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45px;
-    width: 45px;
+    height: 39px;
+    width: 39px;
     cursor: pointer;
-    border: solid white 1px;
+    border: solid #d7e7ff 1px;
     border-radius: 50%;
 }
 .div-filtres i{
@@ -180,9 +180,9 @@ header ul li a{
 }
 
 #hebergement-conteneur-display-flex{
-    border: solid 1px rgb(233, 233, 233);
+    border: solid 1px rgb(237, 237, 237);
     border-radius: 15px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(237, 237, 237);
     max-width: 950px;
     max-height: 620px;
 }
@@ -193,7 +193,7 @@ header ul li a{
     font-weight: bold;
 }
 .conteneur-boite-hebergement{
-    border: rgb(233, 233, 233) solid 2px;
+    border: rgb(237, 237, 237) solid 2px;
     margin: auto;
     width: auto;
     height: auto;
@@ -201,9 +201,13 @@ header ul li a{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.conteneur-boite-hebergement a{
+    text-decoration: none;
+    color: black;
+}
 .taille-image-hebergement-marseille{
     height: 100px;
-    width: 97%;
+    width: 97.5%;
     object-fit: cover;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -221,9 +225,21 @@ header ul li a{
     height: 180px;
     box-shadow: 0 5px 50px rgba(0,0,0,0.20);
 }
+.boite-hebergement i{
+    color: #0065FC;
+}
+.boite-hebergement .vide{
+    color: lightgray;
+}
 figcaption{
+    padding-top: 5px;
+    padding-left: 5px;
     font-size: 0.8em;
     margin-left: 5px;
+}
+.figcaption-hebergement p{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .afficher{
     text-decoration: none;
