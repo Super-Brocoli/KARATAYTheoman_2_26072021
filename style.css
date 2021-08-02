@@ -311,3 +311,40 @@ figcaption{
     color: lightgray;
 }
 /* HEBERGEMENT ASIDE */
+#activites{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.boite-section3{
+    height: 350px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.20);
+    border-radius: 15px;
+}
+.boite-section3-div{
+    box-shadow: 0 5px 20px rgba(0,0,0,0.20);
+    border-radius: 15px;
+}
+.img-boite3{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.boite-div3{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 100px;
+    width: 300px;
+}
+#gros-conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+.div-section3{
+    height: 350px;
+}
+.boite-section3-div{
+    
+}
