@@ -184,10 +184,14 @@ header ul li a{
     border-radius: 10px;
     background-color: rgb(233, 233, 233);
     max-width: 950px;
-    max-height: 600px;
+    max-height: 700px;
+}
+#hebergement{
+    padding: 35px;
+    font-weight: bold;
 }
 .conteneur-boite-hebergement{
-    border: red solid 2px;
+    border: rgb(233, 233, 233) solid 2px;
     margin: auto;
     width: auto;
     height: auto;
@@ -202,11 +206,14 @@ header ul li a{
     border-radius: 10px;
 }
 .boite-hebergement{
-    border: solid 2px black;
+    background-color: white;
+    border: solid 2px rgb(255, 255, 255);
     border-radius: 10px;
     margin-top: 15px;
+    margin-bottom: 25px;
     width: 250px;
     height: 180px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.25);
 }
 
 /* HEBERGEMENT SECTION */
@@ -223,10 +230,13 @@ header ul li a{
     height: 180px;
 }
 .conteneur-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .aside{
     width: 500px;
-    height: 600px;
+    height: 700px;
     border: solid rgb(233, 233, 233) 1px;
     border-radius: 10px;
     background-color: rgb(233, 233, 233);
