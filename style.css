@@ -317,11 +317,17 @@ figcaption{
 }
 .boite-section3{
     height: 350px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.20);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
     border-radius: 15px;
 }
 .boite-section3-div{
-    box-shadow: 0 5px 20px rgba(0,0,0,0.20);
+    height: 190px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    border-radius: 15px;
+}
+.boite-section3-div-petit{
+    height: 140px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
     border-radius: 15px;
 }
 .img-boite3{
@@ -331,11 +337,21 @@ figcaption{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.boite-div3{
+.h3-activites{
+    margin-top: 5px;
+}
+.boite-div3-petit{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
     height: 100px;
+    width: 300px;
+}
+.boite-div3{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 150px;
     width: 300px;
 }
 #gros-conteneur{
@@ -343,8 +359,37 @@ figcaption{
     justify-content: space-between;
 }
 .div-section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 350px;
 }
-.boite-section3-div{
+.boite-section3-div{ 
+}
+
+/* DEUXIEME SECTION */
+
+
+footer{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    width: ;
+    height: 200px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    padding-right: 250px;
+    margin-left: 40px;
+}
+.footer-div p{
+    margin-top: 15px;
+}
+.para-footer{
     
 }
