@@ -310,7 +310,9 @@ figcaption{
 .figcaption-aside .lightgray{
     color: lightgray;
 }
+
 /* HEBERGEMENT ASIDE */
+
 #activites{
     margin-top: 50px;
     margin-bottom: 25px;
@@ -376,7 +378,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(237, 237, 237);
-    width: ;
     height: 200px;
 }
 .footer-div{
@@ -391,5 +392,6 @@ footer{
     margin-top: 15px;
 }
 .para-footer{
-    
+    margin-bottom: 50px;
+    margin-top: 0;
 }
