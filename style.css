@@ -226,6 +226,7 @@ header ul li a{
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
 }
 .boite-hebergement i{
+    margin-top: 10px;
     color: #0065FC;
 }
 .boite-hebergement .vide{
@@ -267,16 +268,17 @@ figcaption{
 .taille-image-aside{
     padding: 3px;
     height: 97.5;
-    width: 100px;
+    width: 120px;
     object-fit: cover;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .boite-hebergement-aside{
     display: flex;
     border: solid rgb(255, 255, 255) 1px;
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
-    width: 300px;
+    width: 330px;
     height: 130px;
     margin-top: 15px;
     margin-bottom: 30px;
@@ -294,6 +296,18 @@ figcaption{
     border-radius: 15px;
     background-color: rgb(237, 237, 237);
 }
-
-
+.figcaption-aside{
+    padding: 15px;
+}
+.figcaption-aside p{
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+.figcaption-aside i{
+    margin-top: 16px;
+    color: #0065FC;
+}
+.gray{
+    color: lightgray;
+}
 /* HEBERGEMENT ASIDE */
