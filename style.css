@@ -182,7 +182,7 @@ header ul li a{
 #hebergement-conteneur-display-flex{
     border: solid 1px rgb(237, 237, 237);
     border-radius: 15px;
-    background-color: rgb(237, 237, 237);
+    background-color: #F2F2F2;
     max-width: 950px;
     max-height: 620px;
 }
@@ -193,7 +193,7 @@ header ul li a{
     font-weight: bold;
 }
 .conteneur-boite-hebergement{
-    border: rgb(237, 237, 237) solid 2px;
+    
     margin: auto;
     width: auto;
     height: auto;
@@ -275,9 +275,9 @@ figcaption{
 }
 .boite-hebergement-aside{
     display: flex;
-    border: solid rgb(255, 255, 255) 1px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.20);
     border-radius: 15px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     width: 330px;
     height: 130px;
     margin-top: 15px;
@@ -322,12 +322,12 @@ figcaption{
     margin-bottom: 25px;
 }
 .boite-section3{
-    height: 350px;
+    height: 400px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.25);
     border-radius: 15px;
 }
 .boite-section3-div{
-    height: 190px;
+    height: 240px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.25);
     border-radius: 15px;
 }
@@ -337,7 +337,7 @@ figcaption{
     border-radius: 15px;
 }
 .img-boite3{
-    height: 300px;
+    height: 355px;
     width: 300px;
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -357,9 +357,24 @@ figcaption{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-    height: 150px;
+    height: 200px;
     width: 300px;
 }
+.boite-div3-2{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+}
+.boite-div3-petit2{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 100px;
+    width: 300px;
+}
+
 #gros-conteneur{
     display: flex;
     justify-content: space-between;
@@ -368,9 +383,15 @@ figcaption{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 350px;
+    height: 400px;
 }
 .boite-section3-div{ 
+    text-decoration: none;
+    
+}
+.activites-a{
+    text-decoration: none;
+    color: black;
 }
 
 /* DEUXIEME SECTION */
