@@ -52,15 +52,35 @@ header ul li a{
      }
     
      #bloc_page{
-         width: 750px;
+         width: 730px;
+         margin: center;
      }
      header{
-         font-size: 2em;
+         font-size: 2em;        
+     }
+     .header-ul{
+         display: flex;
+         flex-wrap: wrap;
      }
      .header-nav-ordre-inscrire{
          order: -5;
      }
- }
+     .bouton-hebergement{
+         margin-right: px;
+     }
+     .bouton-hebergement:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: #0065FC solid 3px;
+    }
+     .bouton-activites{
+
+     }
+     .bouton-activites:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: #0065FC solid 3px;
+    }
 .section1{
     margin-top: 30px;
 }
@@ -109,6 +129,12 @@ header ul li a{
     border-bottom-right-radius: 15px;
     cursor: pointer;
 }
+@media screen and (max-width:750px){
+    
+}
+
+
+
 /*BARRE DE RECHERCHE*/
 
 
@@ -441,6 +467,6 @@ footer{
     color: black;
     text-decoration: none;
 }
-span{
-    font-weight: 900;
-}
+span{   
+     font-weight: 900;
+    }
