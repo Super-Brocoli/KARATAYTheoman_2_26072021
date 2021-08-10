@@ -247,6 +247,9 @@ a{text-decoration: none;}
     margin: 20px;
     padding: 4px;
 }
+.hebergement__div__figure:hover{
+    padding: 5px;
+}
 @media screen and (max-width: 1320px){
     .hebergement__div__figure__img{
         width: 100%;
@@ -323,6 +326,9 @@ span{
     font-size: 0.8rem;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
 }
+.pageOne__section__figure:hover{
+    padding: 3px;
+}
 .pageOne__section__figure__img--aside{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -361,6 +367,7 @@ span{
     flex-wrap: wrap;
 }
 .pageOne__section2__div__figure{
+    margin-left: 5px;
     border-radius: 15px;
     width: 300px;
     height: 500px;
@@ -387,7 +394,8 @@ span{
     justify-content: space-between;
 }
 /* div1 */
-.pageOne__section2__div__figure__1{
+.pageOne__section2__div__figure__1{ 
+    margin-left: 5px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
     height: 290px;
@@ -398,7 +406,8 @@ span{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.pageOne__section2__div__figure__2{
+.pageOne__section2__div__figure__2{ 
+    margin-left: 5px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
     height: 190px;
@@ -409,10 +418,29 @@ span{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+@media screen and (max-width: 890px){
+
+    .pageOne__section2__div__figure--phone{
+        width: 320px;
+        margin-top: 15px;
+        height: 180px;
+    }
+    .pageOne__section2__div__figure__img--phone{
+        height: 140px;
+        width: 100%;
+    }
+    .hebergement__div__figure__img{
+        width: 100%;
+    }
+    .hebergement__div__figure{
+        width: 320px;
+    }
+}
 /* div1 */
 
 /* div2 */
 .pageOne__section2__div__figure__3{
+    margin-left: 5px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
     height: 190px;
@@ -424,6 +452,7 @@ span{
     border-top-right-radius: 15px;
 }
 .pageOne__section2__div__figure__4{
+    margin-left: 5px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
     height: 290px;
