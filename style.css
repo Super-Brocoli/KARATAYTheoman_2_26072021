@@ -11,7 +11,7 @@ body{
     margin: 0;
 }
 a{text-decoration: none;}
-/* (⊃｡•́‿•̀｡)⊃  HEADER  ⊂(･ω･*⊂) */  /* ↧ */
+/* HEADER   */  /* ↧ */
 .headerMain{
     width: 70%;
     height: 100px;
@@ -54,10 +54,10 @@ a{text-decoration: none;}
     font-weight: bold;
     color: #0065FC;
 }
-/* (⊃｡•́‿•̀｡)⊃  HEADER  ⊂(･ω･*⊂) */
+/*  HEADER   */
 
 
-/* TEXTE HEADER ლ(¯ロ¯"ლ) */
+/* TEXTE HEADER  */
 .pageOne{
     width: 70%;
     margin: auto;
@@ -72,10 +72,10 @@ a{text-decoration: none;}
 .pageOne__p{
     margin-top: 10px;
 }
-/* TEXTE HEADER ლ(¯ロ¯"ლ) */
+/* TEXTE HEADER */
 
 
-/* ( ╯°□°)╯ ┻━━┻ INPUT SEARCH */
+/* INPUT SEARCH */
 .pageOne__div{
     display: flex;
     width: 34%;
@@ -128,14 +128,14 @@ a{text-decoration: none;}
     .pageOne__div--button--icone{
         display: block;
     }
-    .pageOne__div--button p{
+    .pageOne__div--button span{
         display: none;
     }
 }
 /* ( ╯°□°)╯ ┻━━┻ INPUT SEARCH */
 
 
-/* (∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:) FILTRES */
+/*  FILTRES */
 .pageOne__div__filtres{
     margin-top: 50px;
     display: flex;
@@ -179,10 +179,10 @@ a{text-decoration: none;}
     background-color: #0065FC;
     color: #ffffff;
 }
-/* (∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:) FILTRES */
+/*  FILTRES */
 
 
-/* (￣ρ￣)..zzZZ PETIT TEXTE FILTRES */
+/*  PETIT TEXTE FILTRES */
 .pageOne__div__logement{
     margin-top: 35px;
     display: flex;
@@ -202,15 +202,24 @@ a{text-decoration: none;}
     margin-right: 15px;
 }
 
-/* (￣ρ￣)..zzZZ PETIT TEXTE FILTRES */
+/*  PETIT TEXTE FILTRES */
 
 
-/* 	(╬￣皿￣)=○＃(￣#)３￣) CONTENEUR DE "HEBERGEMENT MARSEILLE" ET DE "LES PLUS POPULAIRES" */
+/* 	 CONTENEUR DE "HEBERGEMENT MARSEILLE" ET DE "LES PLUS POPULAIRES" */
 .pageOne__section__conteneur{
     display: flex;
     justify-content: space-between;
 }
-/* ʕ •̀ o •́ ʔ HEBERGEMENT */
+@media screen and (max-width: 900px){
+    .pageOne__section__conteneur{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pageOne__section__conteneur__hebergement{
+        background-color: white;
+    }
+}
+/*  HEBERGEMENT */
 .pageOne__section__conteneur__hebergement{
     display: flex;
     flex-direction: column;
@@ -219,6 +228,7 @@ a{text-decoration: none;}
     background-color: #F2F2F2;
     border-radius: 15px;
     width: 65%;
+    min-width: 370px;
 }
 .pageOne__section__conteneur__hebergement__h3{
     font-size: 1.2rem;
@@ -237,10 +247,19 @@ a{text-decoration: none;}
     margin: 20px;
     padding: 4px;
 }
+@media screen and (max-width: 1320px){
+    .hebergement__div__figure__img{
+        width: 100%;
+    }
+    .hebergement__div__figure{
+        width: 320px;
+    }
+}
 .hebergement__div__figure__img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 210px;
+    width: 100%;
+    min-width: 210px;
     height: 110px;
     object-fit: cover;
 }
@@ -272,8 +291,8 @@ a{text-decoration: none;}
 span{
     font-weight: bold;
 }
-/* ʕ •̀ o •́ ʔ HEBERGEMENT */
-/* ＼(٥⁀▽⁀ )／ LES PLUS POPULAIRES */
+/*  HEBERGEMENT */
+/*  LES PLUS POPULAIRES */
 .pageOne__div--aside{
     flex-shrink: 1;
     border-radius: 15px;
@@ -299,6 +318,7 @@ span{
     background-color: #ffffff;
     border-radius: 15px;
     margin-top: 30px;
+    margin-bottom: 30px;
     color: black;
     font-size: 0.8rem;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
@@ -323,11 +343,11 @@ span{
 .aside__etoile{
     color: #0065FC;
 }
-/* ＼(٥⁀▽⁀ )／ LES PLUS POPULAIRES */
-/* 	(╬￣皿￣)=○＃(￣#)３￣) CONTENEUR DE "HEBERGEMENT MARSEILLE" ET DE "LES PLUS POPULAIRES" */
+/*  LES PLUS POPULAIRES */
+/*  CONTENEUR DE "HEBERGEMENT MARSEILLE" ET DE "LES PLUS POPULAIRES" */
 
 
-/* ACTIVITES A MARSEILLE ~(>_<~) */
+/* ACTIVITES A MARSEILLE  */
 .pageOne__section2{
     margin-top: 70px;
     width: 100%;
@@ -415,10 +435,10 @@ span{
     border-top-right-radius: 15px;
 }
 /* div2 */
-/* ACTIVITES A MARSEILLE ~(>_<~) */
+/* ACTIVITES A MARSEILLE  */
 
 
-/* ╮(︶▽︶)╭ FOOTER */
+/*  FOOTER */
 footer{
     margin-top: 40px;
     padding: 25px;
