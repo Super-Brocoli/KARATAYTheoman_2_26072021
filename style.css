@@ -14,7 +14,6 @@ a{text-decoration: none;}
 /* HEADER   */  /* ↧ */
 .headerMain{
     width: 70%;
-    height: 100px;
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -33,6 +32,12 @@ a{text-decoration: none;}
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 50%;
+}
+.headerMain__nav__div{
+    padding-left: 100px;
+    width: 400px;
+    display: flex;
 }
 .headerMain__nav__anchor{
     width: 180px;
@@ -42,11 +47,19 @@ a{text-decoration: none;}
     text-decoration: none;
     color: #000000;
 }
+.headerMain__nav__anchor--hebergement{
+    
+}
+.headerMain__nav__anchor--activites{
+    
+}
 .headerMain__nav__anchor--hebergement:hover{
+    padding-top: 47px;
     color: #0065FC;
     border-top: solid #0065FC 3px;
 }
 .headerMain__nav__anchor--activites:hover{
+    padding-top: 47px;
     color: #0065FC;
     border-top: solid #0065FC 3px;
 }
@@ -123,14 +136,6 @@ a{text-decoration: none;}
 }
 .pageOne__div--button--icone{
     display: none;
-}
-@media screen and (max-width: 1400px){
-    .pageOne__div--button--icone{
-        display: block;
-    }
-    .pageOne__div--button span{
-        display: none;
-    }
 }
 /* ( ╯°□°)╯ ┻━━┻ INPUT SEARCH */
 
@@ -250,14 +255,6 @@ a{text-decoration: none;}
 .hebergement__div__figure:hover{
     padding: 5px;
 }
-@media screen and (max-width: 1320px){
-    .hebergement__div__figure__img{
-        width: 100%;
-    }
-    .hebergement__div__figure{
-        width: 320px;
-    }
-}
 .hebergement__div__figure__img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -362,6 +359,7 @@ span{
     margin-bottom: 25px;
 }
 .pageOne__section2__div{
+    padding-left: 15px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -417,24 +415,6 @@ span{
     width: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
-@media screen and (max-width: 890px){
-
-    .pageOne__section2__div__figure--phone{
-        width: 320px;
-        margin-top: 15px;
-        height: 180px;
-    }
-    .pageOne__section2__div__figure__img--phone{
-        height: 140px;
-        width: 100%;
-    }
-    .hebergement__div__figure__img{
-        width: 100%;
-    }
-    .hebergement__div__figure{
-        width: 320px;
-    }
 }
 /* div1 */
 
@@ -515,4 +495,77 @@ footer{
 .div__footer3 p a{
     color: black;
 }
+
 /* ╮(︶▽︶)╭ FOOTER */
+
+@media screen and (max-width: 890px){
+    .headerMain__nav__anchor--activites{
+        border-bottom: solid #F2F2F2 3px;
+        width: 200px;
+    }
+    .headerMain__nav__anchor--hebergement{
+        border-bottom: solid #F2F2F2 3px;
+        width: 200px;
+    }
+    .headerMain__nav__anchor--hebergement:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: solid #0065FC 3px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .headerMain__nav__anchor--activites:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: solid #0065FC 3px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .headerMain__nav{
+        flex-wrap: wrap;
+    }
+    .headerMain__nav__div{
+        width: 600px;
+        margin-right: 400px;
+        order: 5;
+    }
+    .headerMain__nav__anchor--inscription{
+        margin-top: 45px;
+    }
+    .headerMain__nav__anchor{
+        width: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pageOne__section2__div__figure--phone{
+        width: 320px;
+        margin-top: 15px;
+        height: 180px;
+    }
+    .pageOne__section2__div__figure__img--phone{
+        height: 140px;
+        width: 100%;
+    }
+    .hebergement__div__figure__img{
+        width: 100%;
+    }
+    .hebergement__div__figure{
+        width: 320px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .pageOne__div--button--icone{
+        display: block;
+    }
+    .pageOne__div--button span{
+        display: none;
+    }
+}
+@media screen and (max-width: 1320px){
+    .hebergement__div__figure__img{
+        width: 100%;
+    }
+    .hebergement__div__figure{
+        width: 320px;
+    }
+}
