@@ -320,7 +320,6 @@ span{
     background-color: #ffffff;
     border-radius: 15px;
     margin-top: 30px;
-    margin-bottom: 30px;
     color: black;
     font-size: 0.8rem;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
@@ -404,6 +403,7 @@ span{
     height: 250px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover;
 }
 .pageOne__section2__div__figure__2{ 
     margin-left: 5px;
@@ -416,6 +416,7 @@ span{
     width: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover;
 }
 /* div1 */
 
@@ -431,6 +432,7 @@ span{
     height: 150px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover;
 }
 .pageOne__section2__div__figure__4{
     margin-left: 5px;
@@ -443,6 +445,7 @@ span{
     height: 250px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover;
 }
 /* div2 */
 /* ACTIVITES A MARSEILLE  */
@@ -474,12 +477,18 @@ footer{
 
 /* ╮(︶▽︶)╭ FOOTER */
 
-@media screen and (max-width: 890px){
+@media screen and (max-width: 900px){
+    .pageOne__div__filtres__div{
+        margin: 0;
+    }
+    .PageOne__div__filtres__div__button {
+        padding-left: 55px;
+        padding-right: 10px;
+    }
     .conteneur--activites-deux-images {
         height: auto;
     }
     .pageOne__section2__div {
-        padding-left: 15px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -487,7 +496,6 @@ footer{
         align-items: center;
     }
     .pageOne__section__conteneur__hebergement{
-        margin-left: 15px;
         width: 100%;
         background-color: white;
     }
@@ -549,6 +557,9 @@ footer{
         margin-top: 15px;
         height: 180px;
     }
+    .pageOne__section__conteneur__hebergement{
+        align-items: center;
+    }
     .pageOne__section2__div__figure__img--phone{
         height: 140px;
         width: 100%;
@@ -556,18 +567,61 @@ footer{
     .hebergement__div__figure__img{
         width: 100%;
     }
+    .pageOne__section__conteneur__hebergement__div{
+        max-width: 350px;
+    } 
     .hebergement__div__figure{
         width: 320px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .pageOne__div__filtres{
         flex-direction: column;
     }
     .pageOne__div__filtres__div{
         margin-top: 10px;
-        margin-right: 25px;
+        margin-right: 5px;
     }
     .PageOne__div__filtres__p{
         justify-content: flex-start;
+    }
+    .pageOne__section__conteneur__hebergement__h3{
+        padding-left: 0;
+    }
+    .afficherPlus {
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    .pageOne__section__conteneur__hebergement{}
+    
+}
+@media screen and (max-width: 1200px){
+    .pageOne__div--button--icone{
+        display: block;
+    }
+    .pageOne__div--button span{
+        display: none;
+    }
+}
+@media screen and (max-width: 1320px){
+    .pageOne__h1, .pageOne__p, .pageOne__div, .pageOne__div__filtres, .pageOne__div__logement{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .pageOne__div{
+        border: white;
+    }
+    .pageOne__div__logement{
+        font-size: 0.9rem;
+    }
+    .headerMain{
+        padding: 25px;
+    }
+    .hebergement__div__figure__img{
+        width: 100%;
+    }
+    .hebergement__div__figure{
+        width: 320px;
     }
     footer {
         margin-top: 40px;
@@ -584,21 +638,62 @@ footer{
         width: 230px;
         margin-bottom: 35px;
     }
+    .pageOne__div__filtres--text{
+        align-self: flex-start;
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 420px){
+    .headerMain__div{
+        margin-left: 15px;
+    }
+    .headerMain{
+        margin: 0;
+        padding: 0;
+    }
+    .headerMain__nav__anchor--hebergement{
+        max-width: 190px;
+        margin-left: 60px;
+    }
+    .headerMain__nav__anchor--activites{
+        max-width: 190px;
+    }
+    .headerMain__nav__anchor--inscription{
+        margin-left: 120px;
+    }
+    .div__footer1, .div__footer2, .div__footer3{
+        margin-right: 100px;
+    }
+    .pageOne__section2__h2{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 600px){
+    .headerMain__nav__div{
+        margin-left: 50px;
+    }
+    .headerMain__nav__anchor--hebergement{
+        max-width: 190px;
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width: 600px){
+    .pageOne__div--aside{
+        margin-left: 0;
+    }
+}
 
+@media screen and (max-width: 1560px){
+    .pageOne__h1, .pageOne__p, .pageOne__div, .pageOne__div__filtres, .pageOne__div__logement{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .pageOne__div{
+        border: white;
+    }
 }
-@media screen and (max-width: 1400px){
-    .pageOne__div--button--icone{
-        display: block;
-    }
-    .pageOne__div--button span{
-        display: none;
-    }
-}
-@media screen and (max-width: 1320px){
-    .hebergement__div__figure__img{
-        width: 100%;
-    }
-    .hebergement__div__figure{
-        width: 320px;
+@media screen and (max-width: 1100px){
+    .headerMain__nav__anchor--inscription{
+        margin-right: 40px;
     }
 }
