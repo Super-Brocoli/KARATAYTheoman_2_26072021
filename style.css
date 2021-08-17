@@ -9,6 +9,7 @@ html{
 }
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 a{text-decoration: none;}
 /* HEADER   */  /* ↧ */
@@ -38,6 +39,7 @@ a{text-decoration: none;}
     padding-left: 100px;
     width: 400px;
     display: flex;
+    justify-content: flex-end;
 }
 .headerMain__nav__anchor{
     width: 180px;
@@ -46,12 +48,6 @@ a{text-decoration: none;}
     text-align: center;
     text-decoration: none;
     color: #000000;
-}
-.headerMain__nav__anchor--hebergement{
-    
-}
-.headerMain__nav__anchor--activites{
-    
 }
 .headerMain__nav__anchor--hebergement:hover{
     padding-top: 47px;
@@ -254,9 +250,6 @@ a{text-decoration: none;}
     margin: 20px;
     padding: 4px;
 }
-.hebergement__div__figure:hover{
-    padding: 5px;
-}
 .hebergement__div__figure__img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -323,9 +316,6 @@ span{
     color: black;
     font-size: 0.8rem;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
-}
-.pageOne__section__figure:hover{
-    padding: 3px;
 }
 .pageOne__section__figure__img--aside{
     border-top-left-radius: 15px;
@@ -592,8 +582,6 @@ footer{
         padding-top: 15px;
         padding-left: 25px;
     }
-    .pageOne__section__conteneur__hebergement{}
-    
 }
 @media screen and (max-width: 1200px){
     .pageOne__div--button--icone{
@@ -652,14 +640,16 @@ footer{
         padding: 0;
     }
     .headerMain__nav__anchor--hebergement{
-        max-width: 190px;
-        margin-left: 60px;
+        max-width: 205px;
+        margin-left: 100px;
+        padding-left: 55px;
     }
     .headerMain__nav__anchor--activites{
-        max-width: 190px;
+        max-width: 205px;
+        padding-right: 35px;
     }
     .headerMain__nav__anchor--inscription{
-        margin-left: 120px;
+        margin-left: 130px;
     }
     .div__footer1, .div__footer2, .div__footer3{
         margin-right: 100px;
