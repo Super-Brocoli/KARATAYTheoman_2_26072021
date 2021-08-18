@@ -748,7 +748,8 @@ footer{
         padding-right: 35px;
     }
     .headerMain__nav__anchor--inscription{
-        margin-left: 140px;
+        margin-left: 130px;
+        padding-right: 35px;
     }
     .div__footer1, .div__footer2, .div__footer3{
         margin-right: 100px;
