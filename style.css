@@ -140,6 +140,7 @@ a{text-decoration: none;}
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 .pageOne__div__filtres--icone{
     display: flex;
@@ -177,6 +178,7 @@ a{text-decoration: none;}
     padding-right: 17px;
     padding-left: 65px;
     border-radius: 25px;
+    cursor: pointer;
 }
 .PageOne__div__filtres__div__button:hover{
     background-color: #0065FC;
@@ -440,6 +442,9 @@ span{
 /* div2 */
 /* ACTIVITES A MARSEILLE  */
 
+.fas.fa-star.gray{
+    color: lightgray;
+}
 
 /*  FOOTER */
 footer{
@@ -464,9 +469,138 @@ footer{
 .div__footer1 p a, .div__footer2 p a, .div__footer3 p a{
     color: black;
 }
+.bottomBlack:hover{
+    border-bottom: rgb(78, 78, 78) solid 2px;
+}
 
 /* ╮(︶▽︶)╭ FOOTER */
-
+@media screen and (max-width: 1560px){
+    .pageOne__h1, .pageOne__p, .pageOne__div, .pageOne__div__filtres, .pageOne__div__logement{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .pageOne__div{
+        border: white;
+    }
+    .pageOne__section2__h2{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1320px){
+    .pageOne__h1, .pageOne__p, .pageOne__div, .pageOne__div__filtres, .pageOne__div__logement{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .pageOne__div{
+        border: white;
+    }
+    .pageOne__div__logement{
+        font-size: 0.9rem;
+    }
+    .headerMain{
+        padding: 25px;
+    }
+    .hebergement__div__figure__img{
+        width: 100%;
+    }
+    .hebergement__div__figure{
+        width: 320px;
+    }
+    footer {
+        margin-top: 40px;
+        padding: 25px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+    }
+    .div__footer1, .div__footer2, .div__footer3 {
+        margin-right: 0px; 
+        width: 230px;
+        margin-bottom: 35px;
+    }
+    .pageOne__div__filtres--text{
+        align-self: flex-start;
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .pageOne__section2__div__figure {
+       margin: 10px;
+    }
+    .pageOne__section2__div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pageOne__section2__div__figure__2, .pageOne__section2__div__figure__4, .pageOne__section2__div__figure__1, .pageOne__section2__div__figure__3 {
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .pageOne__div--button--icone{
+        display: block;
+    }
+    .pageOne__div--button span{
+        display: none;
+    }
+}
+@media screen and (max-width: 1149px){
+    .headerMain__nav__anchor--inscription{
+        margin-right: 40px;
+    }
+    .pageOne__div--aside {
+        order: 5;
+        flex-shrink: 1;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F2F2F2;
+        width: 100%;
+        min-width: 370px;
+        margin-top: 33px;
+        margin-left: 15px;
+        margin-left: 0;
+    }
+    .pageOne__section__div {
+        display: flex;
+        padding-top: 35px;
+        margin-bottom: 30px;
+    }
+    .pageOne__section__figure {
+        display: flex;
+        width: 400px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: black;
+        font-size: 0.8rem;
+        box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+    }
+    .pageOne__section__conteneur {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .pageOne__section__conteneur__hebergement__h3 {
+        text-align: center;
+    }
+    .pageOne__section__conteneur__hebergement {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 35px; 
+        background-color: #F2F2F2;
+        border-radius: 0;
+        width: 100%;
+        min-width: 370px;
+    }
+}
 @media screen and (max-width: 900px){
     .pageOne__div__filtres__div{
         margin: 0;
@@ -498,6 +632,7 @@ footer{
         min-height: 580px;
     }
     .pageOne__section__figure{
+        width: 290px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -561,7 +696,7 @@ footer{
         max-width: 350px;
     } 
     .hebergement__div__figure{
-        width: 320px;
+        width: 290px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -583,54 +718,21 @@ footer{
         padding-left: 25px;
     }
 }
-@media screen and (max-width: 1200px){
-    .pageOne__div--button--icone{
-        display: block;
+@media screen and (max-width: 600px){
+    .headerMain__nav__div{
+        margin-left: 50px;
     }
-    .pageOne__div--button span{
-        display: none;
-    }
-}
-@media screen and (max-width: 1320px){
-    .pageOne__h1, .pageOne__p, .pageOne__div, .pageOne__div__filtres, .pageOne__div__logement{
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-    .pageOne__div{
-        border: white;
-    }
-    .pageOne__div__logement{
-        font-size: 0.9rem;
-    }
-    .headerMain{
-        padding: 25px;
-    }
-    .hebergement__div__figure__img{
-        width: 100%;
-    }
-    .hebergement__div__figure{
-        width: 320px;
-    }
-    footer {
-        margin-top: 40px;
-        padding: 25px;
-        padding-top: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #F2F2F2;
-    }
-    .div__footer1, .div__footer2, .div__footer3 {
-        margin-right: 0px; 
-        width: 230px;
-        margin-bottom: 35px;
-    }
-    .pageOne__div__filtres--text{
-        align-self: flex-start;
-        margin-left: 15px;
+    .headerMain__nav__anchor--hebergement{
+        max-width: 190px;
+        margin-left: 60px;
     }
 }
+@media screen and (max-width: 600px){
+    .pageOne__div--aside{
+        margin-left: 0;
+    }
+}
+
 @media screen and (max-width: 420px){
     .headerMain__div{
         margin-left: 15px;
@@ -649,41 +751,44 @@ footer{
         padding-right: 35px;
     }
     .headerMain__nav__anchor--inscription{
-        margin-left: 130px;
+        margin-left: 180px;
     }
     .div__footer1, .div__footer2, .div__footer3{
         margin-right: 100px;
     }
-    .pageOne__section2__h2{
-        margin-left: 40px;
+    .afficherPlus {
+        align-self: flex-start;
+        margin-left: 25px;
     }
-}
-@media screen and (max-width: 600px){
-    .headerMain__nav__div{
-        margin-left: 50px;
+    .pageOne__section2__h2 {
+        margin-right: 85px;
     }
-    .headerMain__nav__anchor--hebergement{
-        max-width: 190px;
-        margin-left: 60px;
+    .pageOne__section2__div a{
+        width: 320px;
     }
-}
-@media screen and (max-width: 600px){
-    .pageOne__div--aside{
+    .pageOne__section2__div__figure__2, .pageOne__section2__div__figure__4, .pageOne__section2__div__figure__1, .pageOne__section2__div__figure__3 {
         margin-left: 0;
     }
+    .pageOne__section2__div__figure{
+        margin-left: 0;
+        width: 300px;
+        margin: auto;
+    }
+    .pageOne__section2__div__figure--phone {
+        width: 300px;
+        
+        height: 180px;
+        margin: 0;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .PageOne__div__filtres__div__button {
+        font-size: 0.9rem;
+        padding-left: 55px;
+        padding-right: 10px;
+    }
+    
 }
 
-@media screen and (max-width: 1560px){
-    .pageOne__h1, .pageOne__p, .pageOne__div, .pageOne__div__filtres, .pageOne__div__logement{
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-    .pageOne__div{
-        border: white;
-    }
-}
-@media screen and (max-width: 1100px){
-    .headerMain__nav__anchor--inscription{
-        margin-right: 40px;
-    }
-}
