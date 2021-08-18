@@ -623,9 +623,6 @@ footer{
         width: 100%;
         background-color: white;
     }
-    .pageOne__section__conteneur__hebergement__h3{
-        margin-left: 40px;
-    }
     .pageOne__div--aside{
         width: 100%;
         border-radius: 0;
@@ -742,16 +739,16 @@ footer{
         padding: 0;
     }
     .headerMain__nav__anchor--hebergement{
-        max-width: 205px;
+        max-width: 190px;
         margin-left: 100px;
-        padding-left: 55px;
+        padding-left: 30px;
     }
     .headerMain__nav__anchor--activites{
-        max-width: 205px;
+        max-width: 190px;
         padding-right: 35px;
     }
     .headerMain__nav__anchor--inscription{
-        margin-left: 180px;
+        margin-left: 140px;
     }
     .div__footer1, .div__footer2, .div__footer3{
         margin-right: 100px;
@@ -761,7 +758,7 @@ footer{
         margin-left: 25px;
     }
     .pageOne__section2__h2 {
-        margin-right: 85px;
+        margin-right: 70px;
     }
     .pageOne__section2__div a{
         width: 320px;
