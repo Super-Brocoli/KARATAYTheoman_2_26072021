@@ -157,7 +157,8 @@ a{text-decoration: none;}
 }
 .pageOne__div__filtres__div{
     position: relative;
-    margin-left: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
     display: flex;
 }
 .PageOne__div__filtres__div__span{
@@ -246,7 +247,7 @@ a{text-decoration: none;}
     background-color: #ffffff;
     box-shadow: 0 5px 20px rgba(0,0,0,0.20);
     border-radius: 15px;
-    margin: 20px;
+    margin: 15px;
     padding: 4px;
     width: 240px;
 }
@@ -506,7 +507,7 @@ footer{
         width: 100%;
     }
     .hebergement__div__figure{
-        width: 320px;
+        width: 290px;
     }
     footer {
         margin-top: 40px;
@@ -543,7 +544,7 @@ footer{
 }
 @media screen and (max-width: 1149px){
     .headerMain__nav__anchor--inscription{
-        margin-right: 40px;
+        margin-right: 5px;
     }
     .pageOne__div--button {
         min-width: 110px;
@@ -569,7 +570,7 @@ footer{
     }
     .pageOne__section__figure {
         display: flex;
-        width: 400px;
+        width: 610px;
         background-color: #ffffff;
         border-radius: 15px;
         margin-top: 0;
@@ -586,6 +587,7 @@ footer{
     }
     .pageOne__section__conteneur__hebergement__h3 {
         text-align: center;
+        margin-bottom: 15px;
     }
     .pageOne__section__conteneur__hebergement {
         display: flex;
@@ -603,8 +605,21 @@ footer{
         display: flex;
         flex-direction: column-reverse;
     }
+    .headerMain__nav__anchor--hebergement {
+        width: 150px;
+    }
+    .headerMain__nav__anchor--activites {
+        width: 150px;
+    }
+    .headerMain__nav__anchor--inscription {
+        min-width: 100px;
+        padding-right: 25px;
+    }
 }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 906px){
+    
+}
+@media screen and (max-width: 700px){
     .headerMain__nav {  
         justify-content: center;
     }
@@ -613,6 +628,9 @@ footer{
     }
     .headerMain__nav__anchor--activites{
         max-width: 180px;
+    }
+    .headerMain__nav__anchor--inscription {
+        padding-right: 80px;
     }
     .pageOne__div__filtres__div{
         margin: 0;
@@ -634,6 +652,9 @@ footer{
     .pageOne__section__conteneur__hebergement{
         width: 100%;
     }
+    .pageOne__section__figure {
+        width: 400px;    
+    }
     .pageOne__div--aside{
         width: 100%;
         border-radius: 0;
@@ -641,45 +662,6 @@ footer{
     }
     .pageOne__section__div{
         margin-bottom: 15px;
-    }
-    
-    .headerMain__nav__anchor--activites{
-        border-bottom: solid #F2F2F2 3px;
-        width: 200px;
-    }
-    .headerMain__nav__anchor--hebergement{
-        border-bottom: solid #F2F2F2 3px;
-        width: 200px;
-    }
-    .headerMain__nav__anchor--hebergement:hover{
-        color: #0065FC;
-        border: none;
-        border-bottom: solid #0065FC 3px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .headerMain__nav__anchor--activites:hover{
-        color: #0065FC;
-        border: none;
-        border-bottom: solid #0065FC 3px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .headerMain__nav{
-        flex-wrap: wrap;
-    }
-    .headerMain__nav__div{
-        width: 600px;
-        margin-right: 400px;
-        order: 5;
-    }
-    .headerMain__nav__anchor--inscription{
-        margin-top: 45px;
-    }
-    .headerMain__nav__anchor{
-        width: 250px;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
     .pageOne__section2__div__figure--phone {
         width: 410px;
@@ -723,21 +705,102 @@ footer{
     }
 }
 @media screen and (max-width: 600px){
+    .pageOne__div--aside{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 550px){
     .headerMain__nav__div{
         margin-left: 50px;
     }
     .headerMain__nav__anchor--hebergement{
         max-width: 190px;
+        margin-left: 130px;
+    }
+    .headerMain__nav__anchor--activites{
+        border-bottom: solid #F2F2F2 3px;
+        
+    }
+    .headerMain__nav__anchor--hebergement{
+        border-bottom: solid #F2F2F2 3px;
+        width: 200px;
+        
+    }
+    .headerMain__nav__anchor--hebergement:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: solid #0065FC 3px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .headerMain__nav__anchor--activites:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: solid #0065FC 3px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .headerMain__nav{
+        flex-wrap: wrap;
+    }
+    .headerMain__nav__div{
+        width: 600px;
+        margin-right: 400px;
+        order: 5;
+    }
+    .headerMain__nav__anchor--inscription{
+        margin-top: 45px;
+        padding-left: 165px;
+        padding-right: 15px;
+    }
+    .headerMain__nav__anchor{
+        width: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    .headerMain__nav__anchor--activites{
+        border-bottom: solid #F2F2F2 3px;
+        width: 200px;
+    }
+    .headerMain__nav__anchor--hebergement{
+        border-bottom: solid #F2F2F2 3px;
+        width: 200px;
         margin-left: 60px;
     }
-}
-@media screen and (max-width: 600px){
-    .pageOne__div--aside{
-        margin-left: 0;
+    .headerMain__nav__anchor--inscription{
+        margin-top: 45px;
+        padding-left: 5px;
     }
-}
-
-@media screen and (max-width: 420px){
+    .headerMain__nav__anchor--hebergement:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: solid #0065FC 3px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .headerMain__nav__anchor--activites:hover{
+        color: #0065FC;
+        border: none;
+        border-bottom: solid #0065FC 3px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .headerMain__nav{
+        flex-wrap: wrap;
+    }
+    .headerMain__nav__div{
+        width: 600px;
+        margin-right: 400px;
+        order: 5;
+    }
+    .headerMain__nav__anchor{
+        width: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .pageOne__div--button--icone{
         display: block;
     }
@@ -760,8 +823,9 @@ footer{
         padding-left: 75px;
     }
     .headerMain__nav__anchor--inscription{
+        margin-top: 45px;
         margin-left: 130px;
-        padding-right: 35px;
+        padding-right: 45px;
     }
     .div__footer1, .div__footer2, .div__footer3{
         margin-right: 100px;
